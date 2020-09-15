@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.choise {
+    margin:0 auto;
+    width:350px;
+    height:60px;
+    display: none;
+    text-align: center;
+    background-color:rgb(253, 253, 209);
+    }
+.arrow {
+    width:60px;
+    margin:0 auto;
+    text-align: center;
+    cursor:pointer;
+    }
+.arrow img {
+    width:19px;
+    padding-top:1px;
+    }
+.color-box {
+  width:45px;
+}
+input[type="color"], input[type="range"] {
+  cursor:pointer;
+}
+canvas {
+  cursor:grab;
+}
